@@ -1,0 +1,26 @@
+
+> ciudad-escucha@0.3.0 test
+> node --test tests/*.test.js
+
+(node:20956) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ registro, sesiones independientes y rol no escalable (398.0187ms)
+✔ publicación requiere confirmación y tiene idempotencia (22.3671ms)
+✔ apoyo único, autoapoyo impedido y contador compartido (29.6003ms)
+✔ comentarios, edición propia, denuncia y moderación (33.5267ms)
+✔ seguimiento, cambio de estado con autorización y notificaciones (34.4074ms)
+Error No hay solicitud pendiente.
+✔ amistad requiere aceptación, seguimiento unilateral y privacidad (33.4656ms)
+✔ LLM ausente explícito y borrador conversacional confirmado una sola vez (26.2353ms)
+✔ administración protegida y sesión persistida al volver a entrar (75.902ms)
+✔ validación servidor y protección de origen (11.9705ms)
+✔ foto real se reencodifica, persiste y rechaza formato ajeno (58.9042ms)
+✔ contrato LLM con transporte simulado explícito: JSON, contexto y rechazo de campos inválidos (7.1853ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2341.5328

@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Sustituir por el título de un reporte verificado",
+    "description": "Sustituir por la descripción real, revisada y sin datos personales sensibles.",
+    "category": "Semáforos",
+    "district": "Los Olivos",
+    "address": "Sustituir por referencia pública verificable",
+    "lat": -11.991,
+    "lng": -77.071,
+    "urgency": "Media",
+    "photo": null,
+    "photo_alt": ""
+  }
+]

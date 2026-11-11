@@ -1,0 +1,16 @@
+services:
+  app:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:3000:3000"
+    env_file: .env
+    environment:
+      NODE_ENV: production
+      HOST: 0.0.0.0
+      DATA_DIR: /app/data
+      DEMO_MODE: "false"
+    volumes:
+      - ciudad_data:/app/data
+volumes:
+  ciudad_data:
